@@ -70,9 +70,10 @@ main {
     padding: 20px;
 }
 
-h1, h2 {
+h1,
+h2 {
     text-align: center;
-    text-decoration:solid;
+    text-decoration: solid;
     text-transform: uppercase;
     font-weight: bold;
     margin: 20px 20px;
@@ -98,7 +99,7 @@ h3 {
 }
 
 .redesSociales {
-padding: 0.3rem;
+    padding: 0.3rem;
 }
 
 h4 {
@@ -110,7 +111,7 @@ h4 {
 
 .contenedorProductos {
     display: inline-block;
-    text-align: center; 
+    text-align: center;
     margin: 20px;
     border: 1px solid black;
     border-radius: 5px;
@@ -118,7 +119,7 @@ h4 {
 }
 
 .imgProducto {
-    display:inline-block;
+    display: inline-block;
     height: 200px;
     object-fit: cover;
 }
@@ -135,7 +136,11 @@ h4 {
     position: sticky;
 }
 
-#carouselExampleCaptions , h3 , p {
+/*Servicios*/
+
+#carouselExampleCaptions,
+h3,
+p {
     color: #1a1a1a;
     font-size: 1.5rem;
 }
@@ -143,6 +148,7 @@ h4 {
 .servicio {
     font-size: 1rem;
 }
+
 iframe {
     display: block;
     margin-left: auto;
@@ -150,7 +156,7 @@ iframe {
     text-align: center;
 }
 
-#cartel {
+.cartel {
     display: inline-block;
     text-align: center;
     width: 200px;
@@ -182,7 +188,8 @@ input {
     margin-bottom: 10px;
 }
 
-input [type="text"], textarea {
+input [type="text"],
+textarea {
     display: block;
     width: 100%;
     padding: 10px;
@@ -203,7 +210,7 @@ input [type="text"], textarea {
 }
 
 .btnFormulario:hover {
-    display:inline-block;
+    display: inline-block;
     background-color: #cbb26a;
     color: black;
     width: 100px;
@@ -216,11 +223,3 @@ input [type="text"], textarea {
     transition: none;
 }
 
-/*Responsive*/
-
-/*Vista Tablet 768px hasta 1023px*/
-
-@media (max-width:1023px) {
-    /*Header*/
-
-}
