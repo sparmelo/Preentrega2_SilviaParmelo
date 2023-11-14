@@ -57,7 +57,7 @@ a {
 
 /*Main*/
 .fondo {
-    background-image: url('/img/bannerCocinas.png');
+    background-image: url(/img/bannerCocinas.png);
     height: 300px;
     background-size: cover;
     text-align: center;
