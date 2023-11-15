@@ -1,3 +1,5 @@
+/* Reset Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +22,8 @@ header {
     border: 1px solid #1a1a1a;
     padding: 10px 20px;
 }
+
+/* Navigation */
 
 .logo {
     width: auto;
@@ -54,8 +58,8 @@ a {
     color: #1a1a1a;
 }
 
+/*Main Section*/
 
-/*Main*/
 .fondo {
     background-image: url(../img/bannerCocinas.png);
     height: 300px;
@@ -70,8 +74,7 @@ main {
     padding: 20px;
 }
 
-h1,
-h2 {
+h1, h2 {
     text-align: center;
     text-decoration: solid;
     text-transform: uppercase;
@@ -137,6 +140,7 @@ iframe {
 
 .cartel {
     display: inline-block;
+    margin-bottom: 20px;
     text-align: center;
     width: 200px;
 }
@@ -157,17 +161,7 @@ label {
     color: black;
 }
 
-input {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    border: 2px solid #cbb26a;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
-input [type="text"],
+input,
 textarea {
     display: block;
     width: 100%;
@@ -189,7 +183,6 @@ textarea {
 }
 
 .btnFormulario:hover {
-    display: inline-block;
     background-color: #cbb26a;
     color: black;
     width: 100px;
